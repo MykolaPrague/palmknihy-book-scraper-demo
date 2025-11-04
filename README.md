@@ -74,9 +74,11 @@ src/
  ├─ detail.py            # detail page parsing
  ├─ io_utils.py          # CSV writing
  └─ palmknihy_scraper.py # CLI entrypoint
+
 examples/
  └─ sample_output.csv
  └─ preview.png
+
 requirements.txt
 README.md
 
@@ -111,4 +113,4 @@ If this project helped you — feel free to star ⭐ the repository 🙂
 
 👤 Author
 Mykola S. — Python & Web Scraping Enthusiast
-```
+
