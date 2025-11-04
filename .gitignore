@@ -4,3 +4,4 @@ debug/
 *.log
 .env
 venv/
+!examples/sample_output.csv
