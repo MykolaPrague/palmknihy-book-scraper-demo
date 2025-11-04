@@ -48,7 +48,7 @@ This repository contains an educational web scraper for extracting book data fro
 
 ### Install requirements
 
-```bash
+---bash
 pip install -r requirements.txt
 Run scraper
 
