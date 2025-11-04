@@ -88,7 +88,11 @@ README.md
 
 Below is a preview of the scraped dataset (VS Code view):
 
-![CSV Preview](examples/preview.png)
+### 📊 Data Preview
+<p align="center">
+  <img src="examples/preview.png" width="650">
+</p>
+
 
 
 
