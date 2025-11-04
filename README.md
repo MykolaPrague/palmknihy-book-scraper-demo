@@ -1,4 +1,3 @@
-
 # 📚 Palmknihy Book Scraper (Python Demo Project)
 
 This repository contains an educational web scraper for extracting book data from an online bookstore (Palmknihy.cz).It is designed to practice **Python, BeautifulSoup, data extraction, and CSV export**.
@@ -88,7 +87,8 @@ README.md
 
 Below is a preview of the scraped dataset (VS Code view):
 
-![Output](https://github.com/MykolaPrague/palmknihy-book-scraper-demo/blob/main/examples/preview.png)
+![Preview of dataset](https://raw.githubusercontent.com/MykolaPrague/palmknihy-book-scraper-demo/main/examples/preview.png)
+
 
 
 
