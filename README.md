@@ -80,12 +80,16 @@ examples/
  └─ preview.png
 requirements.txt
 README.md
+
 📊 Example Output
 
 
-Below is a preview of the scraped dataset (displayed in VS Code):
+### 📊 Data Preview
+
+Below is a preview of the scraped dataset (VS Code view):
 
 ![CSV Preview](examples/preview.png)
+
 
 
 (Full CSV file in examples/ folder)
