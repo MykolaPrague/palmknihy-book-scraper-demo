@@ -88,10 +88,7 @@ README.md
 
 Below is a preview of the scraped dataset (VS Code view):
 
-### 📊 Data Preview
-<p align="center">
-  <img src="examples/preview.png" width="650">
-</p>
+![Output](https://github.com/MykolaPrague/palmknihy-book-scraper-demo/blob/main/examples/preview.png)
 
 
 
