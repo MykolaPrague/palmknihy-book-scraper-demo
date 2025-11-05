@@ -26,7 +26,7 @@ def make_session() -> requests.Session:
 
 def fetch_soup(session: requests.Session, url: str, delay: float) -> BeautifulSoup:
     r = session.get(url, timeout=20); r.raise_for_status()
-    # lxml швидше; якщо нема — fallback
+    # lxml faster; if not — fallback to built-in parser
     try:
         soup = BeautifulSoup(r.text, "lxml")
     except Exception:

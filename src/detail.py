@@ -90,12 +90,12 @@ def parse_detail_page(soup: BeautifulSoup) -> dict:
     if not result["cena_num_detail"]:
         result["cena_num_detail"] = _parse_price_num(result["cena_text_detail"])
 
-    # JSON-LD добиває порожні поля
+    # JSON-LD fills empty fields
     j = _parse_jsonld(soup)
     for k, v in j.items():
         if v and not result.get(k): result[k] = v
 
-    # GTM добиває ще трохи
+    # GTM data fills empty fields
     g = _from_gtm(soup)
     if g.get("datum_vydani") and not result["datum_vydani"]:
         result["datum_vydani"] = g["datum_vydani"]

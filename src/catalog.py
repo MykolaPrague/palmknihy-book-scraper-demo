@@ -26,7 +26,7 @@ def _parse_price_block(txt: str):
         except: pass
     is_from = "1" if "od" in t.lower() else "0"
     return txt, now, before, is_from
-
+#
 def parse_catalog_page(soup: BeautifulSoup) -> list[dict]:
     out = []
     for card in soup.select(CATALOG_CARD):
@@ -47,11 +47,11 @@ def parse_catalog_page(soup: BeautifulSoup) -> list[dict]:
             "cena_text": cena_text,
             "cena_num": cena_num,
             "cena_before": cena_before,
-            "discount": "",          # заповнимо потім, якщо треба
+            "discount": "",          
             "from_price": from_price,
             "detail_url": detail_url,
         })
-    # підрахунок знижки якщо є стара+нова
+    # discount calculation if there is an old+new one price
     for r in out:
         if r["cena_before"] and r["cena_num"]:
             try:

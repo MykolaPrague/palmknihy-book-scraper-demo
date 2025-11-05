@@ -13,7 +13,7 @@ def run(max_pages: int, max_items: int, delay: float, out_file: str, fetch_detai
     total, pages, page = 0, 0, 1
     seen_urls = set()
 
-    # уникаємо дублів при дозапуску
+    # avoid duplicates during relaunch if file exists
     if os.path.exists(out_file) and os.path.getsize(out_file) > 0:
         pass
 
